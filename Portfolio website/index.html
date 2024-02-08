@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Kore - Developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">My portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection" id="home">
+            <div class="leftSection">
+                Hi! My name is <span class="purple">Ayush</span>
+                <div>I'm a Passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <a href="https://github.com/Ayushkore" target="_blank" class="btn">Visit Github</a>
+                </div>
+
+
+            </div>
+
+            <div class="rightSection">
+                <img src="back.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+<!-------------------------------------------Experience section------------------------------------------------>
+        <section class="secondsection" id="Experience">
+            <span class="text-gray">What i have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="DS.png" alt="">
+                    <div class="vertical-text">
+                        Oasis Infobyte (Virtual)| <span>
+                            Data Science Intern <h5>(Dec'2023-Jan'2024)</h5>
+                        </span>
+                    </div>
+                    <div class="vertical-desc">
+                        Engaged in hands-on data analysis and interpretation in a virtual setting.
+                        Applied statistical methods and machine learning algorithms to extract insights from datasets.
+                        Utilized programming languages such as Python for data manipulation and analysis.
+                        Contributed to the development of visualizations and reports to communicate findings
+                        effectively.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-text">
+                        Bharat Intern (Virtual) | <span>
+                            Web Developer Intern<h5>(Jan'2024-Feb'2024)</h5>
+                        </span>
+                    </div>
+                    <div class="vertical-desc">
+                        Conceptualized, designed, and developed a personal portfolio website.
+                        Utilized HTML5, CSS3, and JavaScript for a visually appealing, user-friendly interface.
+                        Replicated a Netflix-inspired website using HTML, CSS, and JavaScript.
+                        Implemented responsive design principles for seamless navigation on diverse devices.
+                        Integrated dynamic content loading and smooth transitions for an interactive user experience.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="DA.png" alt="">
+                    <div class="vertical-text">
+                        Accenture North America (Virtual) | <span>
+                            Intern Data-Analytics<h5>(Feb'2024-present)</h5>
+                        </span>
+                    </div>
+                    <div class="vertical-desc">
+                        Completed a simulation focused on advising a hypothetical social media client as a Data Analyst
+                        at Accenture .
+                        Cleaned, modelled and analyzed 7 datasets to uncover insights into content trends to inform
+                        strategic decisions . Prepared a PowerPoint deck and video presentation to communicate key
+                        insights for the client and internal stakeholders.
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+        <hr>
+    <!----------------------------------------Contact section----------------------------------------------------------------->
+        <section class="contact-container" id="contact">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Get in Touch</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="8bb626a3-e59e-4750-9127-bd0b7212e7f6">
+                <input type="text" name="name" placeholder="Your name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+
+                <button type="submit">Submit</button>
+
+            </form>
+            <div class="contact-right">
+                <img src="contact.png" alt="">
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Ayush's Developer portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact me</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact me</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact me</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;ayushsportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer', 'Video Editor', 'Data Analysts', 'Java Programmer'],
+            typeSpeed: 80,
+        });
+    </script>
+</body>
+
+</html>
